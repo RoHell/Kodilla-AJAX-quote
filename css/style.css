@@ -1,0 +1,92 @@
+@import 'https://fonts.googleapis.com/css?family=Courgette';
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+main {
+	position: relative;
+	margin-top: 46px;
+	width: 100%;
+    border-top: 1px solid #ccd6dd;
+    border-bottom: 1px solid #ccd6dd;
+}
+header {	
+	max-width: 640px;
+	margin: 0 auto;
+	margin-top: -46px;
+}
+.tweet-top {
+	font-size: 26px;
+    float: left;
+    color: #1da1f2;
+    margin-top: -3px;
+}
+h1 {
+	font-size: 22px;
+	line-height: 18px;
+	font-weight: 300;
+	color: #66757f;
+	text-align: center;
+}
+.trigger {
+	margin-top: -42px;
+	float: right;
+	border: 0;
+	padding: 10px;
+	border-radius: 4px;
+	background-color: #1da1f2;
+	color: #fff;
+	cursor: pointer;
+	font-size: 14px;
+	min-width: 115px;
+}
+.box {
+	margin: 30px auto 20px;
+	max-width: 640px;
+	color: #66757f;
+}
+.box .quote {
+	font-size: 22px;
+	color: #66757f;
+	font-weight: 300;
+	line-height: 35px;
+	text-align: center;
+	font-family: 'Courgette', cursive;
+}
+.box .author {
+	font-size: 20px;
+	color: #66757f;
+	font-weight: 300;
+	text-align: right;
+	line-height: 0;
+}
+.tweet-btn {
+	border: 0;
+	padding: 10px;
+	border-radius: 4px;
+	background-color: #1da1f2;
+	color: #fff;
+	cursor: pointer;
+	font-size: 14px;
+	min-width: 115px;
+}
+.tweet-btn:hover .tweet{
+	opacity: 1;
+}
+.tweet-bottom {
+	font-size: 26px;
+    float: left;
+    color: #fff;
+}
+.tweet {
+	color: #fff;
+	text-decoration: none;
+	opacity: .8;
+}
+main>div:last-child {
+	max-width: 640px;
+	margin: 0 auto;
+	margin-bottom: 5px;
+}
