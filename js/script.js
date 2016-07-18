@@ -1,5 +1,6 @@
 var tweetLink = "https://twitter.com/intent/tweet?text=";
 var quoteUrl = "http://api.forismatic.com/api/1.0/?method=getQuote&key=867576&format=jsonp&lang=en&jsonp=?";
+var text_on_hover = 'Generate';
 
 function getQuote() {
 	$.getJSON(quoteUrl, createTweet);
@@ -27,7 +28,7 @@ $(function() {
 		getQuote();
 	})
 		.mouseenter(function() {
-		$(this).text('Generate');
+		$(this).text(text_on_hover);
 	})
 		.mouseleave(function() {
 		$(this).text('Random quote');
