@@ -1,22 +1,11 @@
 module.exports = function(grunt) {
 	grunt.initConfig({
-		sass: {
-
-  			options: {
-    			sourceMap: true
-  			},
-	  		dist: {
-	    		files: {
-	          'css/style.css': 'scss/style.scss'
-	    		}
-	  		}
-    	},
-
+		
     	watch: {
 
 	  		scripts: {
-	    		files: ['**/*.scss'],
-	    		tasks: ['sass'],
+	    		files: ['**/*.css'],
+	    		tasks: ['css'],
 	    		options: {
 	        		spawn: false,
 	    		}
@@ -30,7 +19,6 @@ module.exports = function(grunt) {
 	            		'css/*.css',
 	            		'*.html',
 	            		'js/*.js',
-	            		'scss/*.scss'
 	          		]
 	        	},
 	        	options: {
@@ -43,9 +31,8 @@ module.exports = function(grunt) {
 	    }
 	});
 
-	grunt.loadNpmTasks('grunt-sass');	
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-browser-sync');
 
-	grunt.registerTask('default', ['browserSync', 'sass', 'watch']);
+	grunt.registerTask('default', ['browserSync', 'watch']);
 };
