@@ -10,10 +10,6 @@ Project presents usage of API to generate random quote for tweeter.
 ## Usage
 Click to generate quote and tweet it.
 
-## To Do
-1. Fit `placeholder` height to dragged element height
-2. New column button behind last column.
-
 ## Contributing
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
