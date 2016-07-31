@@ -8,7 +8,7 @@ Project presents usage of API to generate random quote for tweeter.
 2. Run `npm install` to download dependencies (grunt)
 
 ## Usage
-Create column for your tasks and pin some cards to it. Drag and drop functionality.
+Click to generate quote and tweet it.
 
 ## To Do
 1. Fit `placeholder` height to dragged element height
